@@ -8,14 +8,7 @@
         padding: 50px 20px 30px 20px;
     }
 
-    .container-content {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .container-content {
+    .content {
         height: 100%;
         display: flex;
         flex-direction: column;

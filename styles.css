@@ -31,7 +31,8 @@ body {
     max-width: 1130px;
     max-height: 900px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .container-content {
