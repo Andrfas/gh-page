@@ -34,13 +34,6 @@ body {
     flex-direction: column;
 }
 
-.container-logo {
-    width: 114px;
-    height: 37px;
-    margin-top: 20px;
-    object-fit: contain;
-}
-
 .container-content {
     height: 100%;
     display: flex;
@@ -48,7 +41,20 @@ body {
     justify-content: space-between;
 }
 
+.container-logo {
+    /* flex: 1; */
+    width: 114px;
+    height: 37px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+
+.logo {
+    /* flex: 1; */
+}
+
 .column-left {
+    flex: 1;
     display: flex;
     max-width: 440px;
     flex-direction: column;
@@ -127,19 +133,21 @@ body {
 
 .column-right {
     display: flex;
-    /* flex: 1; */
+    flex: 1;
     align-items: center;
     justify-content: center;
 }
 
 .rocket {
-    margin-top: -60px;
+    /* flex: 1; */
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .rocket-image {
     flex: 1;
-    max-width:100%;
-    height:auto;
+    max-width: 500px;
+    height: auto;
     object-fit: contain;
 }
 
