@@ -15,14 +15,14 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 500;
-    padding: 50px 23px 20px 23px;
+    padding: 0 60px 0 60px;
 }
 
 .content {
     flex: 1;
     width: 100%;
-    max-width: 1130px;
-    max-height: 900px;
+    max-width: 1100px;
+    max-height: 650px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,7 +60,8 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
+    padding-top: 70px;
 }
 
 .coming-soon {
@@ -129,14 +130,8 @@ body {
 .column-right {
     display: flex;
     flex: 1;
-    align-items: center;
-    justify-content: center;
-}
-
-.rocket {
-    /* flex: 1; */
-    /* display: flex; */
-    /* flex-direction: column; */
+    justify-content: flex-end;
+    padding-top: 50px;
 }
 
 .rocket-image {

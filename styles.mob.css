@@ -2,17 +2,24 @@
     body {
         height: auto;
         min-height: 100%;
+        padding: 0 23px 0 23px;
     }
 
     .content {
         height: 100%;
+        max-height: none;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
+    }
+
+    .column-left-wrapper {
+        padding-top: 0;
     }
 
     .coming-soon {
-        margin-top: 30px;
+        margin-top: 60px;
         font-size: 60px;
     }
 
@@ -36,7 +43,6 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        margin-top: 60px;
     }
 
     .rocket-image {
